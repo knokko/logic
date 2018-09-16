@@ -1,0 +1,7 @@
+Let P be False
+Let Q be True
+
+Universal quantifier for k [P : Q] will evaluate to true
+Universal quantifier for k [Q : P] will evaluate to false
+
+So they are not equivalent

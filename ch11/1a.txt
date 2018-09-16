@@ -1,0 +1,8 @@
+a = the weather is good
+b = Charles will go to the lake
+c = Charles will go to his aunt
+d = Charles will go to the sea
+e = Charles will go fishing
+
+a --> (b ^ -c)
+(b V d) --> e

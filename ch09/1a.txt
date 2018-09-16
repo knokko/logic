@@ -1,0 +1,7 @@
+A evaluates to true when m < n.
+B evaluates to true when there is a real x that is greater than m and smaller than n.
+
+When m < n, m < x < n will be true for x = m + 0.5 because the difference between m and n must be at least 1 (they are both integers).
+So A will evaluate to true and B will evaluate to true because x = m + 0.5 will pass the predicate.
+
+When m >= n, there is no x where m < x < n.

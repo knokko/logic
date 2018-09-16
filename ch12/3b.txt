@@ -1,0 +1,10 @@
+{ Assume: }
+(1) |P|
+    | {Assume: }
+(2) |    |P ^ Q|
+    |    | {^-elim on (2): }
+(3) |    |(3) Q
+    |    {-->-intro on (2) and (3): }
+(4) | (P ^ Q) --> Q
+    {-->-intro on (1) and (4): }
+(5) P --> ((P ^ Q) --> Q)

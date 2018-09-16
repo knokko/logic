@@ -1,0 +1,4 @@
+Assume n is a multiple of 6, then n can be written as 6k where k is an integer.
+
+So n = 6k = 3 * 2k
+2k is also an integer, so n is a multiple of 3 as well.

@@ -1,0 +1,2 @@
+When n = m + 1, A will evaluate to true. 
+B will evaluate to false because there is no integer that is larger than m and smaller than b at the same time.

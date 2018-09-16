@@ -1,0 +1,5 @@
+Assume x is odd, so we can write it as 2k + 1.
+Then x^2 is (2k + 1) * (2k + 1) = 4kk + 4k + 1 = 2(2kk + 2k) + 1 and this is also odd because its the sum of a multiple of 2 and 1
+
+We assumed x is odd, but this leads to a contradiction because x^2 would be odd as well.
+So x must be even.

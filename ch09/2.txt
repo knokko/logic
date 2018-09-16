@@ -1,0 +1,6 @@
+a is true when D isn't empty
+b is true when D isn't empty
+c is true when D isn't empty
+d is always true
+
+So a, b and c are equivalent.

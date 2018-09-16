@@ -1,0 +1,16 @@
+{ Assume: }
+(1) |P --> Q|
+    | {Assume: }
+(2) |    |P ^ R|
+    |    | {^-elim on (2): }
+(3) |    | P
+    |    | {-->-elim on (1) and (3): }
+(4) |    | Q
+    |    | {^-elim on (2): }
+(5) |    | R
+    |    | {^-intro on (4) and (5): }
+(6) |    |Q ^ R
+    |    {-->-intro on (2) and (6): }
+(7) | (P ^ R) --> (Q ^ R)
+    {-->-intro on (1) and (7): }
+(8) (P --> Q) --> ((P ^ R) --> (Q ^ R))

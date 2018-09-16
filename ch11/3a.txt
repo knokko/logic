@@ -1,0 +1,6 @@
+Every odd number can be written as 2k + 1 where k is an integer.
+Another odd number would be 2n + 1 where n is an integer.
+
+Let x and y be the 2 odd numbers.
+
+Then x * y = (2k + 1) * (2n + 1) = 4kn + 2n + 2k + 1 = 2(2kn + n + k) + 1 and this is also an odd number because its a multiple of 2 plus a 1

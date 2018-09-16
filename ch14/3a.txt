@@ -1,0 +1,14 @@
+{ Assume: }
+(1) |P ^ Q|
+    | {Assume: }
+(2) |    |-P|
+    |    | {^-elim on (1): }
+(3) |    | P
+    |    | {False-intro on (2) and (3): }
+(4) |    | False
+    |    | {False-elim on (4): } Anything can be stated here because this situation can't occur
+(5) |    | R
+    |    {-->-intro on (2) and (5): }
+(6) | -P --> R
+    {-->-intro on (1) and (6): }
+(7) (P ^ Q) --> (-P ^ R)
