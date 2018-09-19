@@ -17,3 +17,5 @@ https://drive.google.com/drive/folders/0B5PqyDzNNBYsc1RiS1dzTk9nT2s
 
 Sevda posted this link once in the app group.
 I don't know anything about the quality of the work though.
+
+The link contained a couple of answers provided by Luttik, check if the exercise you are looking for is in there!

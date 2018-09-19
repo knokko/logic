@@ -1,0 +1,18 @@
+I am not even sure I understood the assignment correctly, so I am not very confident about this answer...
+
+Start with the maths:
+
+Solve: |x + 4| = 0
+        x + 4  = 0
+        x = -4
+
+So the cases will be x <= -4 and x >= -4
+
+Solve: |x + 4| >= 0.5x + 2
+        x + 4 >= 0.5x + 2 v -x - 4 >= 0.5x + 2
+        0.5x >= -2        v -1.5x >= 6
+        x >= -4           v x <= -4
+
+Take x >= -4 for P
+Take x <= -4 for Q
+Take |x + 4| >= 0.5x + 2 for R

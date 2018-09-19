@@ -1,0 +1,20 @@
+The version on onedrive can be hard to read and literally uses n - 1 as line number
+
+{ Assume: }
+(1) | Universal quantifier for x [P(x) --> Q(x)]|
+    | {Assume: }
+(2) |   | Universal quantifier for y [P(y)]|
+    |   | {Assume: }
+(3) |   |   | var y;|
+    |   |   | {Universal-elim on (1) and (3): }
+(4) |   |   | P(y) --> Q(y)
+    |   |   | {Universal-elim on (2) and (3): }
+(5) |   |   | P(y)
+    |   |   | {-->-elim on (4) and (5): }
+(6) |   |   | Q(y)
+    |   |   {Universal-intro on (3) and (6): }
+(7) |   | Universal quantifier for z [Q(z)]
+    |   {-->-intro on (2) and (7): }
+(8) | Universal quantifier for y [P(y)] --> Universal quantifier for z [Q(z)]
+    {-->-intro on (1) and (8): }
+(9) Universal quantifier for x [P(x) --> Q(x)] --> (Universal quantifier for y [P(y)] --> Universal quantifier for z [Q(z)])

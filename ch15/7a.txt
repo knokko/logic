@@ -1,0 +1,14 @@
+{ Assume: }
+(1) |Existensial quantifier for y Universal quantifier for x [P(x) ^ Q(x, y)]|
+    | {Existensial*-intro on (1): }
+(2) | Pick a with Universal quantifier for x [P(x) ^ Q(x, a)]
+    | { Assume: }
+(3) |   |var b;|
+    |   | {Universal-elim on (2) and (3): }
+(4) |   | P(b) ^ Q(b, a)
+    |   | {^-elim on (4): }
+(5) |   | P(b)
+    |   {Universal-intro on (3) and (5): }
+(6) | Universal quantifier for z [P(z)]
+    {-->-intro on (1) and (6): }
+(7) Existensial quantifier for y Universal quantifier for x [P(x) ^ Q(x, y)] --> Universal quantifier for z [P(z)]

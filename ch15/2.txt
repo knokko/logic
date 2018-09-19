@@ -1,0 +1,17 @@
+The online answer seems incomplete
+
+{ Assume: }
+(1) |Universal quantifier for x [x is element of R : e^x - 1 >= x]|
+    | { Assume: }
+(2) |   | var y; y is element of R ^ y > 0|
+(3) |   | Then ln(y) is an element of R
+    |   | {Universal-elim on (1) and (3): }
+(4) |   | Then e^ln(y) - 1 >= y
+(5) |   | Hence y - 1 >= ln(y)
+(6) |   | Hence ln(y) <= y - 1
+    |   {Universal-intro on (2) and (6): }
+(7) | Universal quantifier for y [y is element of R ^ y > 0 : ln(y) <= y - 1]
+    {-->-intro on (1) and (7): }
+(8) Universal quantifier for x [x is element of R : e^x - 1 >= x] --> Universal quantifier for y [y is element of R ^ y > 0 : ln(y) <= y - 1]
+{-->-elim on (8) and GIVEN: }
+(9) Universal quantifier for y [y is element of R ^ y > 0 : ln(y) <= y - 1]

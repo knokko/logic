@@ -1,0 +1,16 @@
+I am having a lot of trouble with reading the onedrive version...
+
+{ Assume: }
+(1) | Universal quantifier for x [x is element of D : P(x, x) --> Universal quantifier for y [y is element of D : P(x, y)]]|
+    | {Universal-elim on (1) and a (GIVEN): }
+(2) | P(a, a) --> Universal quantifier for y [y is element of D : P(a, y)]
+    | {Assume: }
+(3) |   |P(a, a)|
+    |   | {-->-elim on (2) and (3): }
+(4) |   | Universal quantifier for y [y is element of D : P(a, y)]
+    |   | {Universal-elim on (4) and b (GIVEN): }
+(5) |   | P(a, b)
+    |   {v-intro on (3) and (5): }
+(6) | -P(a, a) v P(a, b)
+    {-->-intro on (1) and (6): }
+(7) Universal quantifier for x [x is element of D : P(x, x) --> Universal quantifier for y [y is element of D : P(x, y)]] --> (-P(a, a) v P(a, b))
