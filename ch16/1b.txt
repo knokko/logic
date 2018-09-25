@@ -1,0 +1,16 @@
+Let A be {1}
+Let B be {2}
+
+insert in proposition:
+
+(-(A subset of B) ^ -(A = B)) --> B subset of A
+
+-False ^ -False --> False
+
+True ^ True --> False
+
+True --> False
+
+False
+
+In this case, the proposition evaluates to false, so this proposition does not always hold.

@@ -1,0 +1,16 @@
+Let A be {1}
+Let B be {1}
+Let C be {2}
+
+Then A\B is the empty set
+And A union B is {1}
+And B intersection C is the empty set
+
+Insert in proposition:
+
+A\B = empty set --> A union B = B intersection C
+empty set = empty set --> {1} = empty set
+True --> False
+False
+
+So this proposition does not always hold.

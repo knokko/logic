@@ -1,0 +1,9 @@
+| (A union B) = B |
+|    A union B is subset of B ^ B is subset of A union B
+|    | var x; x is element of A|
+|    |    A union B is subset of B
+|    |    x is element of A union B
+|    |    x is element of B
+|    Universal quantifier for x [x is element of A : x is element of B]
+|    A is subset of B
+((A union B) = B) --> A is subset of B

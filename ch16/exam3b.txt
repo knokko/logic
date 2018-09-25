@@ -1,0 +1,15 @@
+| A complement intersection B is subset of C |
+|    | var x; x is element of B |
+|    |    x is element of A V x is element of A complement
+|    |    | x is element of A complement |
+|    |    |    x is element of A complement intersection B
+|    |    |    x is element of C
+|    |    |    x is element of A union C
+|    |    x is element of A complement --> x is element of A union C
+|    |    | x is element of A |
+|    |    |    x is element of A union C
+|    |    x is element of A --> x is element of A union C
+|    |    x is element of A union C
+|    Universal quantifier for x [x is element of B : x is element of A union C]
+|    B is subset of A union C
+(A complement intersection B is subset of C) --> (B is subset of A union C)

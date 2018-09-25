@@ -1,0 +1,22 @@
+| var X; X is element of P(A) intersection P(B) |
+|    X is element of P(A) ^ X is element of P(B)
+|    X is element of P(A)
+|    X is subset of A
+|    X is element of P(B)
+|    X is subset of B
+|    X is subset of A intersection B
+|    X is element of P(A intersection B)
+Universal quantifier for x [x is element of P(A) intersection P(B) : x is element of P(A intersection B)]
+P(A) intersection P(B) is subset of P(A intersection B)
+| var X; X is element of P(A intersection B) |
+|    X is subset of A intersection B
+|    X is subset of A ^ X is subset of B
+|    X is subset of A
+|    X is subset of B
+|    X is element of P(A)
+|    X is element of P(B)
+|    X is element of P(A) ^ X is element of P(B)
+|    X is element of P(A) intersection P(B)
+Universal quantifier for x [x is element of P(A intersection B) : x is element of P(A) intersection P(B)]
+P(A intersection B) is subset of P(A) intersection P(B)
+P(A) intersection P(B) = P(A intersection B)

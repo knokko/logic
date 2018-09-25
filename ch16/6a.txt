@@ -1,0 +1,14 @@
+Let the universe be {1, 2, 3}
+Let A be {1}
+Let B be {1, 2}
+
+Then A complement is {2, 3}
+Then B complement is {3}
+
+insert in proposition:
+
+(A subset of B) --> (A complement subset of B complement)
+True            --> False
+False
+
+So this proposition does not always hold.

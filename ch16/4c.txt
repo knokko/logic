@@ -1,0 +1,15 @@
+| A union B = A intersection B |
+|   | var x; x is element of A |
+|   |    x is element of A union B
+|   |    x is element of A intersection B
+|   |    x is element of B
+|   Universal quantifier for x [x is element of A : x is element of B]
+|   A is subset of B
+|   | var x; x is element of B |
+|   |    x is element of A union B
+|   |    x is element of A intersection B
+|   |    x is element of A
+|   Universal quantifier for x [x is element of B : x is element of A]
+|   B is subset of A
+|   A = B
+(A union B = A intersection B) --> A = B
