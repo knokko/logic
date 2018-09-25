@@ -16,6 +16,8 @@ For the homework of week 3 to 8, you can use this link:
 https://drive.google.com/drive/folders/0B5PqyDzNNBYsc1RiS1dzTk9nT2s
 
 Sevda posted this link once in the app group.
-I don't know anything about the quality of the work though.
+The quality of the work in the link appears to be good.
 
-The link contained a couple of answers provided by Luttik, check if the exercise you are looking for is in there!
+The link contained a couple of answers provided by Luttik, check if the exercise you are looking for is in there! I put those answers in the file 'Some answers by Luttik.pdf'.
+
+All assignments we have to make should be either in 'Some answers by Luttik', in the onedrive the link refers to or in this github repository.
