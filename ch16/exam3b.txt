@@ -1,15 +1,23 @@
 | A complement intersection B is subset of C |
 |    | var x; x is element of B |
+|    |    { Property of complement: }
 |    |    x is element of A V x is element of A complement
 |    |    | x is element of A complement |
+|    |    |    { Definition of intersection: }
 |    |    |    x is element of A complement intersection B
+|    |    |    { Property of subset: }
 |    |    |    x is element of C
+|    |    |    x is element of C V x is element of A
+|    |    |    { Property of union: }
 |    |    |    x is element of A union C
 |    |    x is element of A complement --> x is element of A union C
 |    |    | x is element of A |
+|    |    | x is element of A V x is element of C
+|    |    | { Property of union: }
 |    |    |    x is element of A union C
 |    |    x is element of A --> x is element of A union C
 |    |    x is element of A union C
 |    Universal quantifier for x [x is element of B : x is element of A union C]
+|    { Definition of subset: }
 |    B is subset of A union C
 (A complement intersection B is subset of C) --> (B is subset of A union C)

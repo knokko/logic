@@ -1,12 +1,18 @@
 | A union B = B intersection C |
 |    | var x; x is element of A\B |
+|    |    { Property of /: }
 |    |    x is element of A ^ -(x is element of B)
 |    |    x is element of A
+|    |    x is element of A V x is element of B
+|    |    { Property of union: }
 |    |    x is element of A union B
+|    |    { Property of =: }
 |    |    x is element of B intersection C
+|    |    { Property of intersection: }
 |    |    x is element of B
 |    |    -(x is element of B)
 |    |    False
 |    Universal quantifier for x [x is element of A\B : False]
+|    { Property of empty set: }
 |    A\B = the empty set
 (A union B = B intersection C) --> A\B = the empty set

@@ -1,22 +1,35 @@
 | var X; X is element of P(A) intersection P(B) |
+|    { Definition of intersection: }
 |    X is element of P(A) ^ X is element of P(B)
 |    X is element of P(A)
+|    { Property of powerset: }
 |    X is subset of A
 |    X is element of P(B)
+|    { Property of powerset: }
 |    X is subset of B
+|    { Definition of intersection: }
 |    X is subset of A intersection B
+|    { Property of powerset: }
 |    X is element of P(A intersection B)
 Universal quantifier for x [x is element of P(A) intersection P(B) : x is element of P(A intersection B)]
+{ Definition of subset: }
 P(A) intersection P(B) is subset of P(A intersection B)
 | var X; X is element of P(A intersection B) |
+|    { Property of powerset: }
 |    X is subset of A intersection B
+|    { Definition of intersection: }
 |    X is subset of A ^ X is subset of B
 |    X is subset of A
 |    X is subset of B
+|    { Property of powerset: }
 |    X is element of P(A)
+|    { Property of powerset: }
 |    X is element of P(B)
 |    X is element of P(A) ^ X is element of P(B)
+|    { Definition of intersection: }
 |    X is element of P(A) intersection P(B)
 Universal quantifier for x [x is element of P(A intersection B) : x is element of P(A) intersection P(B)]
+{ Definition of subset: }
 P(A intersection B) is subset of P(A) intersection P(B)
+{ Definition of =: }
 P(A) intersection P(B) = P(A intersection B)

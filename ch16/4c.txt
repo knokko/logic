@@ -1,15 +1,26 @@
 | A union B = A intersection B |
 |   | var x; x is element of A |
+|   |    x is element of A V x is element of B
+|   |    { Property of union: }
 |   |    x is element of A union B
+|   |    { Property of =: }
 |   |    x is element of A intersection B
+|   |    { Property of intersection: }
 |   |    x is element of B
 |   Universal quantifier for x [x is element of A : x is element of B]
+|   { Definition of subset: }
 |   A is subset of B
 |   | var x; x is element of B |
+|   |    x is element of B V x is element of A
+|   |    { Property of union: }
 |   |    x is element of A union B
+|   |    { Property of =: }
 |   |    x is element of A intersection B
+|   |    { Property of intersection: }
 |   |    x is element of A
 |   Universal quantifier for x [x is element of B : x is element of A]
+|   { Definition of subset: }
 |   B is subset of A
+|   { Definition of =: }
 |   A = B
 (A union B = A intersection B) --> A = B
