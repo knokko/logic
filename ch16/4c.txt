@@ -1,5 +1,8 @@
 | A union B = A intersection B |
 |   | var x; x is element of A |
+|   |    | -(x is element of A)|
+|   |    |    False
+|   |    |    x is element of B
 |   |    x is element of A V x is element of B
 |   |    { Property of union: }
 |   |    x is element of A union B
@@ -11,6 +14,9 @@
 |   { Definition of subset: }
 |   A is subset of B
 |   | var x; x is element of B |
+|   |    | -(x is element of B)|
+|   |    | False
+|   |    | x is element of A
 |   |    x is element of B V x is element of A
 |   |    { Property of union: }
 |   |    x is element of A union B

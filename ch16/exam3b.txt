@@ -7,13 +7,19 @@
 |    |    |    x is element of A complement intersection B
 |    |    |    { Property of subset: }
 |    |    |    x is element of C
+|    |    |    | -(x is element of C)|
+|    |    |    |    False
+|    |    |    |    x is element of A
 |    |    |    x is element of C V x is element of A
 |    |    |    { Property of union: }
 |    |    |    x is element of A union C
 |    |    x is element of A complement --> x is element of A union C
 |    |    | x is element of A |
-|    |    | x is element of A V x is element of C
-|    |    | { Property of union: }
+|    |    |    | -(x is element of A)|
+|    |    |    |    False
+|    |    |    |    x is element of C
+|    |    |    x is element of A V x is element of C
+|    |    |    { Property of union: }
 |    |    |    x is element of A union C
 |    |    x is element of A --> x is element of A union C
 |    |    x is element of A union C

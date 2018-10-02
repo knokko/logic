@@ -3,6 +3,9 @@
 |    |    { Property of /: }
 |    |    x is element of A ^ -(x is element of B)
 |    |    x is element of A
+|    |    | -(x is element of A)|
+|    |    |    False
+|    |    |    x is element of B
 |    |    x is element of A V x is element of B
 |    |    { Property of union: }
 |    |    x is element of A union B
