@@ -1,0 +1,10 @@
+The answer on the googledrive shows the text proof, this is the derivation version:
+
+I am not sure about my comments because I couldn't find any comments for this in the book
+
+(1) | var x; x is element of K(a) |
+    | { Property of equivalence: }
+(2) | xRa
+(3) Universal quantifier for x [x is element of K(a) : xRa]
+    { Property of equivalence class: }
+(4) a is element of K(a)

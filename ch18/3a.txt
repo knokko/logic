@@ -1,0 +1,18 @@
+The answer on the googledrive took annoying variable names and the last part seems incorrect.
+
+(1) | S is subset of T |
+(2) |    | var y; y is element of f(S) |
+    |    | { Property of image on (2) : }
+(3) |    | Existensial quantifier for x[x is element of S : f(x) = y]
+(4) |    | Pick x with x is element of S and f(x) = y
+(5) |    | x is element of S
+    |    | { Property of subset on (5) : }
+(6) |    | x is element of T
+    |    | { Property of image on (6): }
+(7) |    | f(x) is element of f(T)
+    |    | { f(x) = y }
+(8) |    | y is element of f(T)
+(9) | Universal quantifier for y [y is element of f(S) : y is element of f(T)]
+    | { Property of subset: }
+(10)| f(S) is subset of f(T)
+(11) S is subset of T --> f(S) is subset of f(T)

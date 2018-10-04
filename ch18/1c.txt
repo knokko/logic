@@ -1,0 +1,5 @@
+The answer of Lloyd Lo-Wong is equal to this one, but this might be easier to read.
+I think the answer of Abdel is incorrect.
+
+R({2, 4, 6, 8}) = {8, 24}
+R({1, 2 ... 12}) = {8, 24, 40, 56, 72, 88}

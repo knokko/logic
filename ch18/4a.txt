@@ -1,0 +1,14 @@
+The answer(s) on googledrive are ok as well, but you may or may not find this easier to read.
+
+(1) | U is subset of V |
+(2) |    | var x; x is element of f<-(U) |
+    |    | { Property of source: }
+(3) |    | f(x) is element of U
+    |    | { Property of subset: }
+(4) |    | f(x) is element of V
+    |    | { Property of source: }
+(5) |    | x is element of f<-(V)
+(6) |    Universal quantifier for x [x is element of f<-(U) : x is element of f<-(V)]
+    |    { Definition of subset: }
+(7) |    f<-(U) is subset of f<-(V)
+(8) U is subset of V --> f<-(U) is subset of f<-(V)

@@ -1,0 +1,18 @@
+The googledrive answer of Daan de Graaf is equal to this one, but I find the last part hard to read.
+The googledrive answer of Joris Rombouts is messy and seems incorrect.
+
+(1) | Universal quantifier for x [x is element of V : Existensial quantifier for y [y is element of V : xRy]]
+(2) |    | var a; a is element of V|
+(3) |    |    Existensial quantifier for y [y is element of V : aRy]
+(4) |    |    Pick b with b is element of V and aRb
+(5) |    |    aRb
+    |    |    { Symmetry on (5) : }
+(6) |    |    bRa
+    |    |    { Transitivity on (5) and (6) : }
+(7) |    |    aRa
+(8) |    Universal quantifier for x [x is element of V : xRx]
+(9) |    R is reflexive
+    |    { Given: }
+(10)|    R is symmetric and R is transitive
+(11)|    R is an equivalence relation
+(12) Universal quantifier for x [x is element of V : Existensial quantifier for y [y is element of V : xRy]] --> R is an equivalence relation

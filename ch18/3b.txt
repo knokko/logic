@@ -1,0 +1,24 @@
+The answers of Daan de Graaff on googledrive seem incorrect and use confusing variable names
+
+(1) | var y; y is element of f(S intersection T) |
+    |    { Property of image on (1) : }
+(2) |    Existensial quantifier for x[x is element of S intersection T : y = f(x)]
+(3) |    Pick x with x is element of S intersection T and y = f(x)
+    |    { Property of intersection on (3) : }
+(4) |    x is element of S ^ x is element of T
+(5) |    x is element of S
+    |    { Property of image on (5) : }
+(6) |    f(x) is element of f(S)
+    |    { y = f(x) }
+(7) |    y is element of f(S)
+(8) |    x is element of T
+    |    { Property of image on (8): }
+(9) |    f(x) is element of f(T)
+    |    { y is f(x) }
+(10)|    y is element of f(T)
+(11)|    y is element of f(S) ^ y is element of f(T)
+    |    { Property of intersection on (11) : }
+(12)|    y is element of f(S) intersection f(T)
+(13) Universal quantifier for y[y is element of f(S intersection T) : y is element of f(S) intersection f(T)]
+{ Property of subset on (13) : }
+(14) f(S intersection T) is subset of f(S) intersection f(T)
