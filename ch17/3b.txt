@@ -1,3 +1,13 @@
 I couldn't find this exercise on the googledrive
 
 Symmetric
+
+The explanation is not required for the answer, but it should help other students understand the answer.
+
+This is not reflexive because 1 + 1 = 2
+2 is no multiple of 3, so xRx does not hold for x = 1 and thus it is not reflexive
+
+This is symmetric because when x + y is a multiple of 3, so is y + x (because x + y = y + x)
+
+This is not transitive because 1 + 2 = 3 and 2 + 4 = 6 but 1 + 4 is no multiple of 3
+I gave a single counterexample and that is enough. (x = 1, y = 2, z = 4)
