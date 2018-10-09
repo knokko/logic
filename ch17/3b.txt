@@ -4,10 +4,18 @@ Symmetric
 
 The explanation is not required for the answer, but it should help other students understand the answer.
 
-This is not reflexive because 1 + 1 = 2
-2 is no multiple of 3, so xRx does not hold for x = 1 and thus it is not reflexive
+A relation is reflextive if xRx holds for every x in the domain.
+Take x = 1
+Then x + x = 2 and this is no multiple of 3
+xRx does not hold for x = 1 and thus it is not reflexive
 
-This is symmetric because when x + y is a multiple of 3, so is y + x (because x + y = y + x)
+A relation if symmetric if xRy <--> yRx always holds
+x + y = y + x, so either both are multiples of 3 or neither of them are (they are equal)
+That's why this relation is symmetric
 
-This is not transitive because 1 + 2 = 3 and 2 + 4 = 6 but 1 + 4 is no multiple of 3
-I gave a single counterexample and that is enough. (x = 1, y = 2, z = 4)
+A relation is transitive when (xRy ^ yRz) --> xRz always holds
+Take x = 1, y = 2, z = 4
+Then xRy holds because 1 + 2 = 3
+Then yRz holds because 2 + 4 = 6 = 2 * 3
+Then xRz does not hold because 1 + 4 = 5 and this is no multiple of 3
+I gave a single counterexample and that is enough to show that this relation is not transitive

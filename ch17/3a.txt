@@ -4,6 +4,7 @@ Reflexive, symmetric and transitive
 
 The explanation is not required for the assignment, but I added it because there were questions on whatsapp.
 
+A relation is reflextive if xRx holds for every x in the domain.
 This is reflexive because xRx always holds. 
 There are roughly 2 cases:
 x is even
@@ -12,11 +13,14 @@ x is odd
 xRx holds for x is even because 'even + even = even'
 xRx holds for x is odd because 'odd + odd = even'
 
-This is symmetric because xRy <--> yRx
+A relation if symmetric if xRy <--> yRx always holds
+This is symmetric because xRy <--> yRx always holds
 
 When x + y is even (xRy), then y + x is even (yRx)
+This is because x + y = y + x, so they are either both even or both odd
 
-The explanation for transitive is a little more annoying:
+A relation is transitive when (xRy ^ yRz) --> xRz always holds
+The explanation for transitivity is a little more annoying:
 When xRy, there are 2 cases:
 x and y are both even
 x and y are both odd
