@@ -1,3 +1,32 @@
 I couldn't find this exercise on the googledrive
 
 Reflexive, symmetric and transitive
+
+The explanation is not required for the assignment, but I added it because there were questions on whatsapp.
+
+A relation is reflextive if xRx holds for every x in the domain.
+This is reflexive because xRx always holds. 
+There are roughly 2 cases:
+x is even
+x is odd
+
+xRx holds for x is even because 'even + even = even'
+xRx holds for x is odd because 'odd + odd = even'
+
+A relation if symmetric if xRy <--> yRx always holds
+This is symmetric because xRy <--> yRx always holds
+
+When x + y is even (xRy), then y + x is even (yRx)
+This is because x + y = y + x, so they are either both even or both odd
+
+A relation is transitive when (xRy ^ yRz) --> xRz always holds
+The explanation for transitivity is a little more annoying:
+When xRy, there are 2 cases:
+x and y are both even
+x and y are both odd
+
+When x and y are both even and yRz
+z must be even because yRz would not hold otherwise since y is even and z would be odd
+
+When x and y are both odd and yRz
+z must be odd because yRz would not hold otherwise since ys is odd and z would be even

@@ -1,3 +1,21 @@
 I couldn't find this exercise on the googledrive
 
 Symmetric
+
+The explanation is not required for the answer, but it should help other students understand the answer.
+
+A relation is reflextive if xRx holds for every x in the domain.
+Take x = 1
+Then x + x = 2 and this is no multiple of 3
+xRx does not hold for x = 1 and thus it is not reflexive
+
+A relation if symmetric if xRy <--> yRx always holds
+x + y = y + x, so either both are multiples of 3 or neither of them are (they are equal)
+That's why this relation is symmetric
+
+A relation is transitive when (xRy ^ yRz) --> xRz always holds
+Take x = 1, y = 2, z = 4
+Then xRy holds because 1 + 2 = 3
+Then yRz holds because 2 + 4 = 6 = 2 * 3
+Then xRz does not hold because 1 + 4 = 5 and this is no multiple of 3
+I gave a single counterexample and that is enough to show that this relation is not transitive

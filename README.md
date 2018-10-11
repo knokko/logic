@@ -16,8 +16,12 @@ For the homework of week 3 to 8, you can use this link:
 https://drive.google.com/drive/folders/0B5PqyDzNNBYsc1RiS1dzTk9nT2s
 
 Sevda posted this link once in the app group.
-The quality of the work in the link appears to be good.
+The quality of the work varies a lot, but is often good.
 
 The link contained a couple of answers provided by Luttik, check if the exercise you are looking for is in there! I put those answers in the file 'Some answers by Luttik.pdf'.
 
-All assignments we have to make should be either in 'Some answers by Luttik', in the onedrive the link refers to or in this github repository.
+All assignments we have to make should be either in 'Some answers by Luttik', in the googledrive the link refers to or in this github repository.
+
+The 'Soms answers by Luttik' only contains exercises from a few weeks ago, so that is no longer interesting.
+When you are looking for an answer, first check the github. If it is in the github, this means that I think something is wrong with the answer on the googledrive. Sometimes, I write the reason at the top of the file in github.
+If we have to do the exercise and it's not in the github, this means that I think the answer on googledrive is correct.
