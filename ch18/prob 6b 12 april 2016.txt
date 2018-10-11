@@ -1,0 +1,1 @@
+Universal quantifier for y[y is element of R+ union {0} : Unique existensial quantifier for x[x is element of X : f(x) = y]]

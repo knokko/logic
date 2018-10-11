@@ -1,0 +1,3 @@
+I couldn't find this exercise on the googledrive
+
+Universal quantifier for x[x is element of B : Existensial quantifier for y[y is element of C : H(y) = x]]

@@ -1,0 +1,8 @@
+To find a counterexample, solve:
+
+x^2 - 6x + 9 = 1
+x^2 - 6x + 8 = 0
+(x - 4)(x - 2) = 0
+x = 4 V x = 2
+
+There are 2 possible x values for f(x) = 1 (namely x = 2 and x = 4), so f(x) is not an injection.

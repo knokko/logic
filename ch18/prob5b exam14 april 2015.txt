@@ -1,0 +1,13 @@
+I couldn't find this exercise on the googledrive
+
+| Universal quantifier for z[z is element of C : G1(H(z)) = G2(H(z))] |
+|    | var y; y is element of B |
+|    |    { Property of surjection: }
+|    |    Universal quantifier for a[a is element of B : Existensial quantifier for x[x is element of C : H(x) = a]]
+|    |    Existensial quantifier for x[x is element of C : H(x) = y]
+|    |    Pick x with x is element of C and H(x) = y
+|    |    G1(H(x)) = G2(H(x))
+|    |    { y = H(X) }
+|    |    G1(y) = G2(y)
+|    Universal quantifier for y[y is element of B : G1(y) = G2(y)]
+Universal quantifier for z[z is element of C : G1(H(z)) = G2(H(z))] --> Universal quantifier for y[y is element of B : G1(y) = G2(y)]

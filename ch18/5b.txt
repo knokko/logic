@@ -1,0 +1,5 @@
+In this exercise, you have to give an example, so there are probably infinitely many correct solutions.
+
+My simple example is f(x) = 2x
+
+Abdels examples seem to be correct as well, but I have doubts about Daans notation.

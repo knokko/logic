@@ -1,0 +1,52 @@
+I think the answers on google drive are a bit weird because they assume things that are given.
+Also, the difference between x and x' can be hard to read on the pictures.
+
+| var y; True |
+|    | y is element of f(S intersection T) |
+|    |    { Property of image: }
+|    |    Existensial quantifier for x [x is element of S intersection T : f(x) = y]
+|    |    Pick x with x is element of S intersection T and f(x) = y
+|    |    { Property of intersection: }
+|    |    x is element of S ^ x is element of T
+|    |    x is element of S
+|    |    { Property of image: }
+|    |    f(x) is element of f(S)
+|    |    x is element of T
+|    |    { Property of image: }
+|    |    f(x) is element of f(T)
+|    |    { Property of intersection: }
+|    |    f(x) is element of f(S) intersection f(T)
+|    |    { y = f(x)}
+|    |    y is element of f(S) intersection f(T)
+|    y is element of f(S intersection T) --> y is element of f(S) intersection f(T)
+|    | y is element of f(S) intersection f(T) |
+|    |    { Property of intersection: }
+|    |    y is element of f(S) ^ y is element of f(T)
+|    |    y is element of f(S)
+|    |    { Property of image: }
+|    |    Existensial quantifier for x[x is element of S : f(x) = y]
+|    |    Pick x with x is element of S and f(x) = y
+|    |    y is element of f(T)
+|    |    { Property of image: }
+|    |    Existensial quantifier for z[z is element of T : f(z) = y]
+|    |    Pick z with z is element of T and f(z) = y
+|    |    { Property of injection: }
+|    |    Universal quantifier for a,b[a,b are elements of A : (f(a) = f(b)) --> a = b]
+|    |    f(x) = f(z) --> x = z
+|    |    { f(x) = y and f(z) = y}
+|    |    x = z
+|    |    { x = z and z is element of T}
+|    |    x is element of T
+|    |    x is element of S ^ x is element of T
+|    |    { Property of intersection: }
+|    |    x is element of S intersection T
+|    |    { Property of image: }
+|    |    f(x) is element of f(S intersection T)
+|    |    { f(x) = y }
+|    |    y is element of f(S intersection T)
+|    y is element of f(S) intersection f(T) --> y is element of f(S intersection T)
+|    y is element of f(S intersection T) <--> y is element of f(S) intersection f(T)
+|    { Property of =: }
+|    f(S intersection T) = f(S) intersection f(T)
+Universal quantifier for y[True : f(S intersection T) = f(S) intersection f(T)]
+f(S intersection T) = f(S) intersection f(T)

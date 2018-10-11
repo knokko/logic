@@ -1,0 +1,26 @@
+Let P(n) be 7^n - 1 is divisible by 6
+
+{ Mathematics: }
+(1) 7^1 - 1 = 6 is divisible by 6
+{ Definition of P on 1: }
+(2) P(1)
+(3) | var n; n is element of N |
+(IH)|    | P(n) |
+    |    | { Mathematics: }
+(4) |    | 7^(n+1) - 1 = 7 * 7^n - 1 = 7^n + 6 * 7^n - 1 = (7^n - 1) + (6 * 7^n)
+    |    | { IH }
+(5) |    | 7^n - 1 is divisible by 6
+    |    | { Mathematics: }
+(6) |    | 6 * 7^n is divisible by 6
+    |    | { Mathematics on (5) and (6): }
+(7) |    | (7^n - 1) + 6 * (7^n) is divisible by 6
+    |    | { See (4) and (7): }
+(8) |    | 7^(n + 1) - 1 is divisible by 6
+    |    | { Definition of P on (8): }
+(9) |    | P(n + 1)
+(10)| P(n) --> P(n + 1)
+(11) Universal quantifier for n[n is element of N : P(n) --> P(n + 1)]
+{ Induction on (2) and (11): }
+(12) Universal quantifier for n[n is element of N ^ n >= 1 : P(n)]
+{ Definition of P on (12): }
+(13) 7^n - 1 is divisible by 6 for all natural numbers that are greater than or equal to 1

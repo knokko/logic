@@ -1,0 +1,6 @@
+In this exercise, you have to give an example, so there are probably infinitely many correct solutions.
+
+Abdels example f(x) = 5 seems to be correct and simple.
+I think Daans example is incorrect because not every natural number has a natural square root
+
+My example is f(x) = |x - 10|

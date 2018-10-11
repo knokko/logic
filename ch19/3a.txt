@@ -1,0 +1,17 @@
+The exercise on googledrive is missing the last part
+
+Since my knowledge of characters is very limited, I will use SUM(k = beginValue, maxValue, formulate) to indicate the sum of all formulas on the right of the sum character for the numbers between beginValue and maxValue (both inclusive)
+
+{ Mathematics: }
+(1) SUM(k = 0, n, k * k!) = 0 * 0! = 0 and (0 + 1)! - 1 = 0
+(2) SUM(k = 0, n, k * k!) = (n + 1)! - 1 holds for n = 0
+(IH)| var n; n is element of N |
+(3) |    | SUM(k = 0, n, k * k!) = (n + 1)! - 1 |
+    |    | { Mathematics: }
+(4) |    | SUM(k = 0, n + 1, k * k!) = SUM(k = 0, n, k * k!) + ((n + 1) * (n + 1)!) =IH= (n + 1)! - 1 + (n + 1)(n + 1)! = (n + 2)(n + 1)! - 1 = (n + 2)! - 1
+    |    | { Start of (3) equals end of (3): }
+(5) |    | SUM(k = 0, n + 1, k * k!) = ((n + 1) + 1)! - 1
+(6) | SUM(k = 0, n, k * k!) = (n + 1)! - 1 --> SUM(k = 0, n + 1, k * k!) = ((n + 1) + 1)! - 1
+(7) Universal quantifier for n[n is element of N : SUM(k = 0, n, k * k!) = (n + 1)! - 1 --> SUM(k = 0, n + 1, k * k!) = (n + 1 + 1)! - 1]
+{ Induction on (2) and (5): }
+(8) Universal quantifier for n[n is element of N : SUM(k = 0, n, k * k!) = (n + 1)! - 1]

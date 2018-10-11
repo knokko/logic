@@ -1,0 +1,8 @@
+The formula is:
+Universal quantifier for x,z[x,z are elements of R : f(x) = f(z) --> x = z]
+
+Counterexample: x = 2 and z = -2
+
+x and z are elements of R and f(x) = f(z) = 5
+
+However, x is not equal to z
