@@ -1,6 +1,8 @@
 In this exercise, you have to give an example, so there are probably infinitely many correct solutions.
 
-Abdels example f(x) = 5 seems to be correct and simple.
+Abdels example f(x) = 5 seems to be incorrect because the image is supposed to be all the natural numbers, but 5 is the only reachable natural number.
 I think Daans example is incorrect because not every natural number has a natural square root
 
 My example is f(x) = |x - 10|
+
+f(x) = |x - 1| should do as well, but f(x) = |x| would not because that would make f also an injection.
