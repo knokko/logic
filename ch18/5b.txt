@@ -2,4 +2,8 @@ In this exercise, you have to give an example, so there are probably infinitely 
 
 My simple example is f(x) = 2x
 
+There is at most 1 x value for every y because that value can only be 0.5y, hence this is an injection.
+There is no x value for y = 1 because that would be 0.5, but the domain is the collection of naturual numbers, so there is no x value in the domain where f(x) = 1.
+I could have given every odd number as counterexample, but 1 is enough to show that this is no surjection.
+
 Abdels examples seem to be correct as well, but I have doubts about Daans notation.
