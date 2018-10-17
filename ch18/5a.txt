@@ -1,3 +1,5 @@
 In this exercise, you have to give an example, so there are probably infinitely many correct solutions.
 
 The simple (and probably correct example) from Abdel is f(x) = x
+
+There is obviously one 1 y for every x and there is an x value for every y, so this is a bijection.
