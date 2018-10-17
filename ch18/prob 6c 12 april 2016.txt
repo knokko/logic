@@ -1,3 +1,1 @@
-I am not very condifent about this answer
-
-X = {x is element of R : x >= 3}
+X = {x is element of R | x >= 3}
