@@ -13,3 +13,9 @@ Notice that a(n) is an element of the sequence of Fibonacci and A(n) is my predi
 (4) |    | a(n + 2) = a(n + 1) + a(n) =IH= SUM(k = 0, n - 1, a(k)) + a(n) = SUM(k = 0, n, a(k)), hence A(n) for n >= 2
     |    | { Case distinction: }
 (5) |    | A(n)
+(6) |    Universal quantifier for j[j is element of N ^ j < n : A(j)] --> A(n)
+(7) Universal quantifier for n[n is element of N : Universal quantifier for j[j is element of N ^ j < n : A(j)] --> A(n)]
+    { Strong induction on (7): }
+(8) Universal quantifier for n[n is element of N : A(n)]
+    { Definition of A(n): }
+(9) For every natural n it holds that a(n + 2) = SUM(k = 0, n, a(k)) + 1

@@ -1,0 +1,20 @@
+Let A(m, n) be 'a chessboard of size m * n has the same color on all 4 corner squares'.
+
+(1) | var m; m is element of N ^ m is odd |
+(2) |    A chessboard of m * 1 squares starts with the same color as it ends because the length of the row (m) is odd. Since 2 of the corners are the start square and 2 of the corners are the end square, all 4 corner squares have the same color, hence A(m, 1).
+(3) |    | var n; n is element of N |
+(IH)|    |    | A(m, n) |
+    |    |    |    { Chessboard layout: }
+(4) |    |    |    The upper row of the chessboard with m * (n + 1) squares has opposite colors compared to the upper row of the chessboard with m * n squares.
+    |    |    |    { Chessboard layout: }
+(5) |    |    |    The upper row of the chessboard with m * (n + 2) squares has opposite colors compared to the upper row of the chessboard with m * (n + 1) squares.
+    |    |    |    { From (4) and (5): }
+(6) |    |    |    The chessboard with m * (n + 2) squares has the same upper row as the chessboard with m * n squares.
+(7) |    |    |    A(m, n + 2)
+(8) |    |    A(m, n) --> A(m, n + 2)
+(9) |    Universal quantifier for n[n is element of N ^ n is odd : A(m, n) --> A(m, n + 2)]
+    |    { Induction and odd n on (2) and (9): }
+(10)|    Universal quantifier for n[n is element of N ^ n is odd : (Am, n)]
+(11) Universal quantifier for m[m is element of N ^ m is odd : Universal quantifier for n[n is element of N ^ n is odd : A(m, n)]]
+    { Definition of A(m, n) on (11): }
+(12) A chessboard of size m * n where m and n are odd has the same color on all 4 corner squares.
