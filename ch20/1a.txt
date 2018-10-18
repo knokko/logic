@@ -1,0 +1,8 @@
+The number 1 only has a single divisor, namely 1. Every x is divisible by 1, so every x has at least 1 divisor.
+So the number of divisors of 1 is smaller than or equal to the number of divisors of x.
+And thus 1Rx
+
+Every prime number p has at most 2 divisors, namely 1 and p. 1 is the only prime number with only 1 dividor because it is equal to 1.
+Every x that is not equal to 1 has at least 2 divisors, namely 1 and x.
+So x has at least 2 divisors and p has at most 2 divisors, so the number of divisors of p is smaller than or equal to the number of divisors of x.
+And thus pRx for x != 1

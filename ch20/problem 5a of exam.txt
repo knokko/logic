@@ -1,0 +1,43 @@
+I will use 'and' to denote conjunction because that power character is going to cause confuction in this exercise.
+
+(1) | var (x, y); (x, y) is element of N x N |
+(2) | (x, y)R(x, y) |
+    |    |    { Definition of R on (2): }
+(3) |    |    x < x and y < x and y < y |
+(4) |    |    x < x
+    |    |    { Mathematics: }
+(5) |    |    -(x < x)
+(6) |    |    False
+(7) |    -(x, y)R(x, y)
+(8) Universal quantifier for (x, y)[(x, y) is element of N x N : -(x, y)R(x, y)]
+    { Definition of irriflexivity on (8): }
+(9) R is irriflexive on N x N
+(10)| var (x, y), (a, b), (c, d); (x, y), (a, b), (c, d) are elements of N x N |
+(11)|    | (x, y)R(a, b) and (a, b)R(c, d) |
+(12)|    |    (x, y)R(a, b)
+    |    |    { Definition of R on (12): }
+(13)|    |    x < a and y < a and y < b
+(14)|    |    (a, b)R(c, d)
+    |    |    { Definition of R on (14): }
+(15)|    |    a < c and b < c and b < d
+(16)|    |    x < a
+(17)|    |    a < c
+    |    |    { Transitivity of < on (16) and (17): }
+(18)|    |    x < c
+(19)|    |    y < a
+    |    |    { Transitivity of < on (18) and (17): }
+(20)|    |    y < c
+(21)|    |    y < b
+(22)|    |    b < d
+    |    |    { Transitivity of < on (21) and (22): }
+(23)|    |    y < d
+(24)|    |    a < c and y < c and y < d
+    |    |    { Definition of R on (24): }
+(25)|    |    (x, y)R(c, d)
+(26)|    ((x, y)R(a, b) and (a, b)R(c, d)) --> (x, y)R(c, d)
+(27)Universal quantifier for (x,y),(a,b),(c,d)[(x,y),(a,b),(c,d) are elements of N x N : ((x, y)R(a, b) and (a, b)R(c, d)) --> (x, y)R(c, d)]
+    { Definition of transitivity on (27): }
+(28) R is transitive on N x N
+    { From irriflexivity (9) and transitivity (28): }
+(29) R is strictly assymmetric on N x N
+(30) R is an irriflexive ordering

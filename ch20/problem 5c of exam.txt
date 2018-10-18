@@ -1,0 +1,5 @@
+The maximal elements are (3, 1), (3, 2), (3, 3), (2, 3) and (1, 3) because these elements are not smaller than any other element in the set. They would be smaller than another element if both their x and y would be smaller than the x and y of the other, but that is impossible since they all contain the maximum number that is being used in this context.
+
+The minimal elements are (3, 1), (1, 3), (2, 1), (1, 1) and (1, 2) because these elements are not larger than any other element in the set. They would be larger than another element if both their x and y would be larger than the x and y of the other, but that is impossible since they all contain the minimum number that is being used in this context.
+
+Notice that the elements (3, 1) and (1, 3) are maximal as well as minimal elements. This is because they are incomparable with all other elements in the set. So we can't say that any element is either larger or smaller than those elements.

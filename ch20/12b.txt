@@ -1,0 +1,15 @@
+For the Cartesian ordering:
+
+The maximum and only maximal element is (6, 6). I hope that this one doesn't need any further explanation.
+
+The minimal elements are (2, 2), (2, 3), (3, 2) and (3, 3) because they can only be divided by itself. Since there are multiple minimal elements, there is no minimum. (The minimal elements are all elemenents that do not have a 6 in this scenario.)
+
+
+For the lexicographical ordering:
+
+The maximum and only maximal element is (6, 6). I think this one is obvious.
+
+The minimal elements are (2, 2), (2, 3), (3, 2) and (3, 3). Every element that contains a 6 can be divided by another point, so again, the minimal elements are all elements that do not contain 6.
+
+
+It happens that the maximal and minimal elements of both the lexicographic and cartesian ordering have the same maximal and minimal elements. I don't if this is always the case, but it could be.

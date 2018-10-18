@@ -1,0 +1,7 @@
+No, I will give a counterexample again.
+
+Let A be {2, 3}
+Let A' be {2}
+
+A does not have a maximum because 2 and 3 are incomparable for division.
+But 2 is the maximum of A' because it can be divided by all numbers in A'.

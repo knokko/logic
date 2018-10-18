@@ -1,0 +1,10 @@
+The exercise suggests that I can choose my set B, so I will use that.
+
+For every element x in set A, I will add a set to my set B.
+This new set will contain all elements y in A where yRx.
+
+The exercise doesn't say I have to explain why this works, but I will do it anyway because it can be helpful for people who read this.
+
+B will only contain subsets of A because all elements (sets) in B can only contain elements of A because of process I use to define B.
+
+I will give a demonstration of the other requirement in an image soon.

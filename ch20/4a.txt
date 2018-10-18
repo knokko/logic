@@ -1,0 +1,5 @@
+I think the quantifier notation of Lloyd is not necessary or even incorrect.
+
+But I do agree that g(x) = x - 1 and h(x) = x + 1 are good examples.
+
+There are infinitely many correct functions for g and h, so you don't necessarily have to use my example.

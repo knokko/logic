@@ -1,0 +1,13 @@
+(1) | var (a, b); (a, b) is element of A x B |
+    |    { Property of x on (1): }
+(2) |    a is element of A ^  b is element of B
+    |    { Reflexivity of R1: }
+(3) |    aR1a
+    |    { Reflexivity of R2: }
+(4) |    bR2b
+(5) |    aR1a ^ bR2b
+    |    { Definition of R3: }
+(6) |    (a, b)R3(a, b)
+(7) Universal quantifier for (a, b)[(a, b) is element of A x B : (a, b)R3(a, b)]
+    { Definition of reflexivity: }
+(8) R3 is reflexive on A x B

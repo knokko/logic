@@ -1,0 +1,20 @@
+In the exercise, they use a fancy symbol to denote the set containing all functions. I will simply refer to the set with 'functions' because my virtual character knowledge is... limited.
+
+Does anyone have a more proper way to prove this?
+
+(1) | var f; f is element of functions |
+(2) |    | var x; x is element of R |
+    |    |    { Property of function: }
+(3) |    |    f(x) = f(x)
+    |    |    { Mathematics: }
+(4) |    |    -(f(x) < f(x))
+(5) |    Universal quantifier for x[x is element of R : -(f(x) < f(x))]
+    |    { R is not empty, so: }
+(6) |    -(Universal quantifier for x[x is element of R : f(x) < f(x)])
+    |    { Definition of < from assignment: }
+(7) |    -(f < f)
+(8) Universal quantifier for f[f is element of functions : -(f < f)]
+    { Definition of irriflexivity: }
+(9) < is irriflexive on functions
+    { Fancy notation: }
+(10) <( functions, < )>

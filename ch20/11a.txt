@@ -1,0 +1,13 @@
+The exercise suggests that I have to assume A' and A have a maximum, so I will...
+
+(1) | Existensial quantifier for a[a is element of A : Universal quantifier for x[x is element of A : xRa]] ^ Existensial quantifier for a'[a' is element of A' : Universal quantifier for x[x is element of A' : xRa']] |
+(2) | Existensial quantifier for a[a is element of A : Universal quantifier for x[x is element of A : xRa]]
+(3) | Existensial quantifier for a'[a' is element of A' : Universal quantifier for x[x is element of A' : xRa']]
+(4) | Pick a with a is element of A and Universal quantifier for x[x is element of A : xRa]
+(5) | Pick a' with a' is element of A' and Universal quantifier for x[x is element of A' : xRa']
+    | { A' is subset of A and property of subset on (5): }
+(6) | a' is element of A
+    | { Universal elimination on (4) and (6): }
+(7) | a'Ra
+
+I guess this is where my proof stops...

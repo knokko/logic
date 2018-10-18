@@ -1,0 +1,9 @@
+No, not necessarily.
+I will give a counterexample:
+
+Let A be {2, 3, 6}
+Let A' be {2, 3}
+Use the | (divisible) comparator.
+
+6 is the maximum of A because it is divisible by 2 and 3.
+But A' does not have a maximum because 2 and 3 are not divisible by each other. (They are incomparable.)

@@ -1,0 +1,2 @@
+I showed in 20.1b that it is indeed reflexive. Also, all quasi-orderings are reflexive and we had to show reflextivity at 20.1b.
+I guess they meant some other property in the question because this question doesn't really make sense.

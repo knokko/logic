@@ -1,0 +1,11 @@
+No, many functions are incomparable.
+
+I will give a simple example:
+
+Let f(x) be x
+Let g(x) be 1
+
+f is not smaller than g because f(2) = 2 and g(2) = 1, (f(2) > g(2))
+g is not smaller than f because f(0) = 0 and g(0) = 1, (g(0) > f(0))
+
+So f and g are incomparable, so this can not be a linear ordering.

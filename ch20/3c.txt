@@ -1,0 +1,7 @@
+No, not necessarily.
+I will give a counterexample:
+
+Let A and B be {1, 2, 3} and R1 and R2 be <
+Both A and B are linear (the order is simply 1 --> 2 --> 3)
+
+However, (1, 3) and (3, 1) are incomparable, so R3 is not linear.
