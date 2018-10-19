@@ -7,4 +7,4 @@ The exercise doesn't say I have to explain why this works, but I will do it anyw
 
 B will only contain subsets of A because all elements (sets) in B can only contain elements of A because of process I use to define B.
 
-I will give a demonstration of the other requirement in an image soon.
+If you would like to see an example of this method, just look at 8a.png and 8b.png.
