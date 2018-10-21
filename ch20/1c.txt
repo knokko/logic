@@ -1,2 +1,9 @@
-I showed in 20.1b that it is indeed reflexive. Also, all quasi-orderings are reflexive and we had to show reflextivity at 20.1b.
-I guess they meant some other property in the question because this question doesn't really make sense.
+In order to be a reflexive ordering, the ordering, must be reflextive, anitsymmetric and transitive.
+I showed reflexivity and transitivity in b.
+
+This ordering is not antisymmetric, I will give a counterexample.
+3R7 holds because both 3 and 7 have 2 divisors, namely 1 and itself.
+7R3 holds for the same reason.
+(In order for xRy to hold, the number of divisors must be smaller than OR EQUAL).
+
+This ordering is not antisymmetric, so this is no reflexive ordering.
