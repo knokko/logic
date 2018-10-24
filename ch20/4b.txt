@@ -18,3 +18,5 @@ Does anyone have a more proper way to prove this?
 (9) < is irriflexive on functions
     { Fancy notation: }
 (10) <( functions, < )>
+
+ALTHOUGH I DID PROVE THAT THIS ORDERING IS IRREFLEXIVE, I DID NOT PROVE THAT IT IS AN IRREFLEXIVE ORDERING. I SHOULD HAVE PROVEN TRANSITIVITY AS WELL AND CONCLUDED STRICT ANTISYMMETRY.
