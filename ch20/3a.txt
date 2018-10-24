@@ -11,3 +11,5 @@
 (7) Universal quantifier for (a, b)[(a, b) is element of A x B : (a, b)R3(a, b)]
     { Definition of reflexivity: }
 (8) R3 is reflexive on A x B
+
+ALTHOUGH I DID PROVE THAT R3 IS REFLEXIVE, I DID NOT PROVE THAT IT IS A REFLEXIVE ORDERING. I SHOULD HAVE PROVEN ANISYMMETRY AND TRANSITIVITY AS WELL. I MAY ADD PROOFS FOR THAT SOON, BUT NOT NOW.
