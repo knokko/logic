@@ -1,4 +1,6 @@
-There are probably more correct answers
+There are probably more correct answers.
 
-a) a --> a
+a) a => a
 b) a V -a
+c) -(a^-a)
+d) a<=>a
