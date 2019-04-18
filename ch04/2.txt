@@ -1,1 +1,5 @@
-a, b and d
+(a) and (b) 
+
+Not (d) because of the proposition variables differ!
+
+Be careful: the Boolean functions of (a) and (b) range over proposition variables a and b, whereas the Boolean function (d) ranges over the proposition variable a and c and is therefore different from the previous one. (See page 29, bullet point 3)
