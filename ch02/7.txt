@@ -1,0 +1,3 @@
+The sub-formulas of the abstract proposition (a^-b)=>(-c=>d) are:
+
+a,b,c,d,(-b),(-c),(a^-b),(-c=>d) and also (a^-b)=>(-c=>d) itself (see page 11, paragraph 1).
