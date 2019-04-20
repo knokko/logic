@@ -1,0 +1,17 @@
+For the tautology part:
+
+Show that (a=>a) and (a<=a) are both tautologies and therefore equivalant. (1)
+Show that a=>(a=>a) is also a tautology and therefore equivalant to (a=>a). (2)
+Concluding, (1) and (2) show that any number of a's implying (a=>a) or (a<=a) is equivalant to (a=>a) and therefore always a tautology. (4)
+
+
+For the contingency part:
+
+Show that (a=>a)=>a is an contingency and equivalant to a. (3)
+Concluding, (1) and (3) show that any number of a's being implied by (a=>a) or (a<=a) is equivalant to a and therefore always a contingency. (5)
+
+
+Combining both parts:
+
+Lastly, (4) and (5) show that every abstract proposition built only from a and => is either a tautology or a contingency.
+
