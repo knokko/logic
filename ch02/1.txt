@@ -1,8 +1,9 @@
+Main idea: When a proposition gets connectives it becomes a complex one:
 a) complex
-b) No, this is some kind of function
+b) no, it's not true or false, because this isn't a proposition. (last two don't have a boolean state)
 c) simple
 d) complex
-e) no, it's not true or false
-f) no, it's not true or false
-g) simple
-h) no, it's not true or false
+e) no, it's not true or false, because this isn't a proposition.
+f) no, it's not true or false, because this isn't a proposition.
+g) Depends if you consider it all as just one proposition, but if you consider just 'elephants exist' and negate it. Then by negating you make it a complex proposition.
+h) Complex, there is no way to form this proposition without using a connective, so yeah it becomes one.
