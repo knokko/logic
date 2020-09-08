@@ -1,2 +1,2 @@
-c) Unviersal quantifier for x [x is element of D : Universal quantifier for y [y is element of D : y = x]] ^ Existensial quantifier for x [x is element of D : True]
-d) Existensial quantifier for x and y [x is element of D and y is element of D : x != y ^ Universal quantifier for a [a is element of D : a = x V a = y]]
+c) Universal quantifier for x [x is element of D : Universal quantifier for y [y is element of D : y = x]] ^ Existensial quantifier for x [x is element of D : True]
+d) Existential quantifier for x and y [x is element of D and y is element of D : x != y ^ Universal quantifier for a [a is element of D : a = x V a = y]]
