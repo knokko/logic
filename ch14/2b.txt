@@ -1,18 +1,22 @@
 { Assume: }
 (1) |(P --> Q) --> -P|
     | { Assume: }
-(2) |   |P|
+(2) |    |P|
     |    | { Assume: }
 (3) |    |    |Q|
-    |    |    | {-->-intro on (2) and (3): }
-(4) |    |    | P --> Q
-    |    |    | {-->-elim on (1) and (4): }
-(5) |    |    | -P
-    |    |    | {False-intro on (2) and (5): }
-(6) |    |    | False
-    |    |    {- -intro on (3) and (6): }
-(7) |    | -Q
-    |    {-->-intro on (2) and (7): }
-(8) | P --> -Q
-    {-->-intro on (1) and (8): }
-(9) ((P --> Q) --> -P) --> (P --> -Q)
+    |    |    | { Assume: }
+(4) |    |    |    |P|
+    |    |    |    | { Still valid (3) }
+(5) |    |    |    | Q
+    |    |    |    {-->-intro on (4) and (5): }
+(6) |    |    | P --> Q
+    |    |    | {-->-elim on (1) and (6): }
+(7) |    |    | -P
+    |    |    | {False-intro on (2) and (7): }
+(8) |    |    | False
+    |    |    {- -intro on (3) and (8): }
+(9) |    | -Q
+    |    {-->-intro on (2) and (9): }
+(10)| P --> -Q
+    {-->-intro on (1) and (10): }
+(11)((P --> Q) --> -P) --> (P --> -Q)
