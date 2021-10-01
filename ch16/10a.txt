@@ -17,12 +17,26 @@ P(A) intersection P(B) is subset of P(A intersection B)
 | var X; X is element of P(A intersection B) |
 |    { Property of powerset: }
 |    X is subset of A intersection B
-|    { Definition of intersection: }
-|    X is subset of A ^ X is subset of B
+|    | var y; y is element of X |
+|    |    { Property of subset: }
+|    |    y is element of A intersection B
+|    |    { Property of intersection: }
+|    |    y is element of A ^ y is element of B
+|    |    y is element of A
+|    Universal quantifier for y [y is element of X : y is element of A]
+|    { Definition of subset: }
 |    X is subset of A
-|    X is subset of B
 |    { Property of powerset: }
 |    X is element of P(A)
+|    | var y; y is element of X |
+|    |    { Property of subset: }
+|    |    y is element of A intersection B
+|    |    { Property of intersection: }
+|    |    y is element of A ^ y is element of B
+|    |    y is element of B
+|    Universal quantifier for y [y is element of X : y is element of B]
+|    { Definition of subset: }
+|    X is subset of B
 |    { Property of powerset: }
 |    X is element of P(B)
 |    X is element of P(A) ^ X is element of P(B)
