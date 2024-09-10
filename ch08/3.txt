@@ -1,4 +1,4 @@
 a) Universal quantifier for n [n is element of N : n > -1]
 b) Universal quantifier for x [x is element of R : x^2 >= 0]
-c) Universal quantifier for x [x is element of R AND x > 10 : x > 5]
+c) Universal quantifier for x [x is element of R : x > 10 => x > 5]
 d) Universal quantifier for x [x is element of R : x > 10] => (1 = 0)
