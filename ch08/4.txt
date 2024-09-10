@@ -1,0 +1,4 @@
+a) Universal quantifier for x [x is element of D : x != 0]
+b) Universal quantifier for x [x is element of D : x > 10 AND 25 > x]
+c) Universal quantifier for x [x is element of D : x > 10 OR 25 > x]
+d) Universal quantifier for x and y [(x,y) is element of D*D : abs(x-y) >= 1]
