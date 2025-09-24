@@ -5,8 +5,8 @@ Let R be False
 Inserting in (P --> Q) --> (P v (Q --> R)) gives:
 
 (False --> True) --> (False v (True --> False)) = 
-True             -->          (True --> False)  =
-True             -->                 False = 
+True             -->           (False v False)  =
+True             -->                      False = 
 False
 
 So this proposition will not always evaluate to true which means that this proposition is no tautologie.
